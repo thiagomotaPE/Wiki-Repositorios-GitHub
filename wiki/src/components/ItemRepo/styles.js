@@ -3,8 +3,11 @@ import styled from "styled-components";
 export const ItemContainer = styled.div`
     width: 80%;
     padding: 20px;
+    margin: 5px 0;
+
     border: 1px solid #FAFAFA60;
     border-radius: 20px;
+    
     display: flex;
     flex-direction: column;
     
@@ -19,11 +22,19 @@ export const ItemContainer = styled.div`
         margin-bottom: 10px;
     }
 
-    a.entrarRepo{
+    .entrarRepo{
+        margin-bottom: 8px;
+        text-decoration: none;
         color: #FAFAFA;
     }
 
-    a.remover{
+    .remover{
+        text-decoration: none;
         color: #FF0000;
     }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
 `

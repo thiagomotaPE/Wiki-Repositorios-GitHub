@@ -5,9 +5,10 @@ export const InputContainer = styled.div`
     border-radius: 20px;
 
     height: 62px;
-    width: 80%;
+    width: 55%;
 
     margin: 20px;
+    padding: 3px;
 
     input{
         background: transparent;
@@ -16,9 +17,9 @@ export const InputContainer = styled.div`
         border: 0;
         border-radius: 20px;
 
-        width: 98%;
+        width: 95%;
         height: 62px;
-        padding: 0 20px;
+        padding: 2px 20px;
 
         font-size: 20px;
     }
